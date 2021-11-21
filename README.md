@@ -55,3 +55,5 @@ Folders:
  - wordpress = main site folder
  - plugins = word press plugins folder
  - db-data = MySQL DB
+
+ END
