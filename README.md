@@ -36,6 +36,23 @@ npm run env:start
 npm run env:install
 ```
 
+Login to the site, navigate to http://localhost:8889/wp-admin.
+
+* Username: `admin`
+* Password: `password`
+
+```
+Go to Plugins
+Activate Google Listings and Ads, Jetpack and WooCommerce by clicking on "Activate" button
+Fill Store details with any and press "Continue"
+Press "No thanks"
+Industry - Fashion,... -> Continue
+Physical products -> Continue
+I don't.. -> No -> Continue
+Continue
+Select Storefront theme
+```
+
 Your WordPress site will accessible at http://localhost:8000. You can see or change configurations in the `.env` file located at the root of the project directory.
 
 #### To watch for changes

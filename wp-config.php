@@ -46,15 +46,15 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',          'iv@OZ<Zpdqx<b&4N|cNXR;g?+0)j@,)XM,FE+rb?h,.#_[XNeSMdG8:H-PqW9K+m' );
-define( 'SECURE_AUTH_KEY',   '7UJmR_<RTJioamX,J,O:UYN,Ckd-WZ>?+#nvt2GmPX:=~3-{A=9@?.c@?B7EqOFh' );
-define( 'LOGGED_IN_KEY',     '40z,7dP2Vma@Ct^h{s x~#NtNx(+4QeK&,KK=Mk@;E5_h?Ig5P-w`3Y-Q*D*$=&9' );
-define( 'NONCE_KEY',         '@/7f=3AC)VmwD`9hv+)I*<;+lVKi(27z<5#H`427*q*<7l2nz|;JGseJj3YKUOlS' );
-define( 'AUTH_SALT',         'sZE ml(6;>>o%@RK6xJ>Fg%*;>&K~]`ZBRA>5U`ndm<!~(+QYfn6Pf4)<0LW(&_P' );
-define( 'SECURE_AUTH_SALT',  'Hrx1.;pSqOevjWX%`+y4CKX]eWdT286<INj2TCLa_]!BA1+vfU;o/dXJ2)t.r+C&' );
-define( 'LOGGED_IN_SALT',    'J2^Bx|VjsZw-wAVhPR6l*NT@l.np=&JsM-4v= *Tdgmz~tX/D{7?F9b2F!:tl>Ow' );
-define( 'NONCE_SALT',        'Sy!sio~*4An8V>wp6L!NXM&]$9oe|2@@;Od~E&zvoo~(:W*0k3lAGdbY-.a&b:]b' );
-define( 'WP_CACHE_KEY_SALT', 'dZ^Kz|?TF-C]cVQtRV+.}&a*3qKW-Z7W|{_Iadac2(exq4(esY4rA2OqG 9uf:{<' );
+define( 'AUTH_KEY',          'RHSMUAmy]f[H;5Y,^N[|Oxb|0]9@0RW`0tsm0Yia=2.j&as2esz4J>>x![1/L*U1' );
+define( 'SECURE_AUTH_KEY',   'KHL]<1Xu?<Adr!K?/2ocT lF5W2)Flx:JDuS2M0nYMYcdk<s1@$$$K(l 4>S$H*&' );
+define( 'LOGGED_IN_KEY',     '=ixY!`ZoM{zNd9Cf_gA-0F5[~)z08pg|*5f}Hi,r!HnX[,&T_.VE:]:P7[&?#UK/' );
+define( 'NONCE_KEY',         'd2`$EswWRE!AG_V.j!~QATM ,;b(gk&, wVFR/^uv4~n!_UBX*r^LRU{/a,08&^H' );
+define( 'AUTH_SALT',         'jMyv9Opz@zF?-fldFp^Wj5wP.]v2 PR#Gd06{o]hs}9A#BrP gwb9|ESjG(sn6pU' );
+define( 'SECURE_AUTH_SALT',  'azuW2$IHL}W^uuHO6ZE5-oT,&l2WcaFj?HEEn=O@Jqt2Xk;% &0R[v|tN?wRfK[K' );
+define( 'LOGGED_IN_SALT',    '3&I4a.lXyNT8Rt&Sm,-1`sv_Jq3Hu41(:mt3W9ZOk#a+u?v-pZSJ:.s;s2raNCD5' );
+define( 'NONCE_SALT',        'Ot3;GmmTPJ3+}n0/yN1.dGJhX{tnW%tA>n*,_,_b2no.K ARyxrTvwY.3}He~MTc' );
+define( 'WP_CACHE_KEY_SALT', '~xO%dJf$e:6-ysU^#F-9{GA77 aZA<0C(hra6G(f*A9ZREMCMvmn7I[  E$t[k;l' );
 
 /**
  * WordPress Database Table prefix.
@@ -81,4 +81,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
-define( 'FS_METHOD', 'direct' );
